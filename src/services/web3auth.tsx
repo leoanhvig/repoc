@@ -109,7 +109,7 @@ export const Web3AuthProvider = ({ children }: IWeb3AuthProps) => {
     async function init() {
       try {
         setIsLoading(true);
-        const clientId = "BBc2pnygxEY1qjqx893JDtAfLfcMzIb9cbsuGL2bVslh8-_XHY4lLHquNuOY68Kn1HUfXjCjzvJ_yQKpt4amI-g";
+        const clientId = "BA8d4GriF_lhfxwbYZcyIY4Mjdolp5AbZZTdC0e-fibyNkTR_OP3x-8mg2KVi3YeQvTQURrfNyzew4U_CMBqhoA";
 
         const privateKeyProvider = new EthereumPrivateKeyProvider({ config: { chainConfig: chain["Sepolia Testnet"] } });
 
