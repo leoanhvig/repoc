@@ -127,6 +127,7 @@ export const Web3AuthProvider = ({ children }: IWeb3AuthProps) => {
           adapterSettings: {
             clientId,
             uxMode: UX_MODE.REDIRECT,
+            redirectUrl: "https://repoc.vercel.app/",
             loginConfig: {
               auth0: {
                 verifier: "aggregate-sapphire",
