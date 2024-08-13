@@ -9,8 +9,4 @@
       "@web3auth/*-plugin": ["./packages/plugins/*-plugin"]
     }
   }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> dfcbc44 (first commit)

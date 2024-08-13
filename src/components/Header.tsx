@@ -56,19 +56,11 @@ const Header = () => {
               </div>
             </div>
           </div>
-<<<<<<< HEAD
-          <div className="flex-col flex-row mt-0 items-center lg:flex hidden">
-            <DisconnectWeb3AuthButton />
-          </div>
-          {connected && (
-            <div className="flex-col flex-row mt-0 items-center flex lg:hidden">
-=======
           <div className="flex-col mt-0 items-center lg:flex hidden">
             <DisconnectWeb3AuthButton />
           </div>
           {connected && (
             <div className="flex-col mt-0 items-center flex lg:hidden">
->>>>>>> dfcbc44 (first commit)
               <Hamburger toggled={isOpen} toggle={setOpen} size={25} direction="right" />
             </div>
           )}

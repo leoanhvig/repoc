@@ -1,10 +1,6 @@
 import "./App.css";
 
-<<<<<<< HEAD
-import React from "react";
-=======
 import * as React from "react";
->>>>>>> dfcbc44 (first commit)
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import Contract from "./pages/Contract";

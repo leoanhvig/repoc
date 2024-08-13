@@ -23,16 +23,6 @@ module.exports = {
       "error",
       "ignorePackages",
       {
-<<<<<<< HEAD
-        "js": "never",
-        "jsx": "never",
-        "ts": "never",
-        "tsx": "never"
-      }
-   ]
-  }
-};
-=======
         js: "never",
         jsx: "never",
         ts: "never",
@@ -41,4 +31,3 @@ module.exports = {
     ],
   },
 };
->>>>>>> dfcbc44 (first commit)
