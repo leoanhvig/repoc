@@ -109,14 +109,14 @@ export const Web3AuthProvider = ({ children }: IWeb3AuthProps) => {
     async function init() {
       try {
         setIsLoading(true);
-        const clientId = "BPi5PB_UiIZ-cPz1GtV5i1I2iOSOHuimiXBI0e-Oe_u6X3oVAbCiAZOTEBtTXw4tsluTITPqA8zMsfxIKMjiqNQ";
+        const clientId = "BBc2pnygxEY1qjqx893JDtAfLfcMzIb9cbsuGL2bVslh8-_XHY4lLHquNuOY68Kn1HUfXjCjzvJ_yQKpt4amI-g";
 
         const privateKeyProvider = new EthereumPrivateKeyProvider({ config: { chainConfig: chain["Sepolia Testnet"] } });
 
         const web3AuthInstance = new Web3AuthNoModal({
           clientId,
           privateKeyProvider,
-          web3AuthNetwork: WEB3AUTH_NETWORK.SAPPHIRE_MAINNET,
+          web3AuthNetwork: WEB3AUTH_NETWORK.SAPPHIRE_DEVNET,
         });
 
         const openloginAdapter = new OpenloginAdapter({
